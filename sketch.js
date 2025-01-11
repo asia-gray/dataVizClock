@@ -19,6 +19,7 @@ function setup() {
       
       //outer circle
       fill(40,17,43); //darkpurple
+      noFill();
       strokeWeight(10);
       stroke(95,47,7);
       ellipse(width/2, height/2, 600, 600);
