@@ -18,7 +18,7 @@ function setup() {
       //console.log(totalSeconds)
       
       //outer circle
-      fill(40,17,43); //darkpurple
+      //fill(40,17,43); //darkpurple
       noFill();
       strokeWeight(10);
       stroke(95,47,7);
