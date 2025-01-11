@@ -1,8 +1,3 @@
-let hourlyGoat;
-
-function preload() {
-  hourlyGoat = loadSound('goat.wav'); 
-}
 
 function setup() {
     createCanvas(800, 800);
@@ -47,10 +42,7 @@ function setup() {
       strokeWeight(0);
       ellipse(width/2, height/2, secWidth, secWidth);
     
-      //play hourly goat sound
-    if(min == 59 && sec == 59){
-        hourlyGoat.play();
-    }
+
       
       // putting the text at the bottom
       textSize(25);
